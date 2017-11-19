@@ -297,7 +297,7 @@ def trainCorrNet(src_folder, tgt_folder, batch_size = 20, training_epochs=40,
         #training cycle
         for epoch in range(training_epochs):
     
-            print ("in epoch ", epoch)
+            #print ("in epoch ", epoch)
             c = []
             ipfile = open(src_folder+"train/ip.txt","r")
             for line in ipfile:
@@ -350,8 +350,8 @@ def trainCorrNet(src_folder, tgt_folder, batch_size = 20, training_epochs=40,
                 di = np.mean(c) - diff
                 diff = np.mean(c)
     
-            print ('Difference between 2 epochs is ', di)
-            print ('Training epoch %d, cost ' % epoch, diff)
+            #print ('Difference between 2 epochs is ', di)
+            #print ('Training epoch %d, cost ' % epoch, diff)
     
             ipfile.close()
     

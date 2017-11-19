@@ -5,7 +5,7 @@ print('UP DOWN experiment')
 os.chdir(input_dir_UD)
 print('Current directory: ',os.getcwd())
 
-for x in range(0, 1):
+for x in range(0, 20):
 	print('ITERATION: ', x)
 	print('TRAINING')
 	os.system('python train_corrnet.py MNIST_DIR/ TGT_DIR/')
