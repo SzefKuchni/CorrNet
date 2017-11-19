@@ -1,0 +1,21 @@
+LEFT RIGHT experiment
+Current directory:  C:\Users\T540pDLEWYNBQ\Google Drive\Wszystko\Inne\Studia doktoranckie - Informatyka\CorrNet\CorrNet\CorrNet-py3.5\mnistExample
+ITERATION:  0
+TRAINING
+1111
+in epoch  0
+Difference between 2 epochs is  28.9962
+Training epoch 0, cost  28.9962
+ code ran for 0.16m
+Model saved in file: TGT_DIR/
+PROJECTING
+TRANSFER LERARNING
+view1 to view2
+0.7293
+view2 to view1
+0.7641
+CORRELATION
+validation correlation
+39.8754751889
+test correlation
+39.4008288536
