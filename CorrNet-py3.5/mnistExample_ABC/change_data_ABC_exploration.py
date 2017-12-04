@@ -22,6 +22,12 @@ plt.imshow(np.concatenate((left[0,].reshape(28,14), right[0,].reshape(28,14)), a
 #joining pictures
 
 full=np.concatenate((left.reshape(left.shape[0],28,14), right.reshape(left.shape[0],28,14)), axis=2)
+plt.imshow(full[0])
+plt.imshow(full[1])
+plt.imshow(full[2])
+plt.imshow(full[3])
+plt.imshow(full[4])
+plt.imshow(full[5])
 
 #there is a problem with the shape
 full.shape
