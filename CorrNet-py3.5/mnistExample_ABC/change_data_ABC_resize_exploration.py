@@ -30,20 +30,36 @@ plt.imshow(img, cmap='gray')
 test=img>0
 width=test.max(axis=0)
 height=test.max(axis=1)
+#idicators if there is information in horizontal and vertical lines
+plt.imshow(img, cmap='gray')
+width
+height
 
 height=np.where(height==True)
 height_min=height[0].min()
 height_max=height[0].max()
+height_min
+height_max
 
 width=np.where(width==True)
 width_min=width[0].min()
 width_max=width[0].max()
+#idicators if there is information in horizontal and vertical lines
+plt.imshow(img, cmap='gray')
+width_min
+width_max
 
 global_max=max((height_max,width_max))+1
 global_min=min((height_min,width_min))
 
+global_max
+global_min
+
+cut=min(27-height_max,width_min)-1
+cut
+
 plt.imshow(img, cmap='gray')
-img_cropped=img[global_min:global_max,global_min:global_max]
+img_cropped=img[global_min:global_max-cut,cut:global_max]
 plt.imshow(img_cropped, cmap='gray')
 img_cropped_resized=scipy.misc.imresize(img_cropped,[28,28])
 plt.imshow(img_cropped_resized, cmap='gray')
