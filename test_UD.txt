@@ -1,0 +1,322 @@
+UP DOWN experiment
+Current directory:  C:\Users\T540pDLEWYNBQ\Google Drive\Wszystko\Inne\Studia doktoranckie - Informatyka\CorrNet\CorrNet\CorrNet-py3.5\mnistExample_UD
+ITERATION:  0
+TRAINING
+1111
+ code ran for 3.90m
+Model saved in file: TGT_DIR/
+PROJECTING
+TRANSFER LERARNING
+view1 to view2
+0.7554
+view2 to view1
+0.7612
+CORRELATION
+validation correlation
+38.4887602763
+test correlation
+38.7985353051
+ITERATION:  1
+TRAINING
+1111
+ code ran for 3.87m
+Model saved in file: TGT_DIR/
+PROJECTING
+TRANSFER LERARNING
+view1 to view2
+0.7464
+view2 to view1
+0.7588
+CORRELATION
+validation correlation
+38.1883843505
+test correlation
+38.6146784633
+ITERATION:  2
+TRAINING
+1111
+ code ran for 4.01m
+Model saved in file: TGT_DIR/
+PROJECTING
+TRANSFER LERARNING
+view1 to view2
+0.7599
+view2 to view1
+0.7573
+CORRELATION
+validation correlation
+38.1254803304
+test correlation
+38.3964920202
+ITERATION:  3
+TRAINING
+1111
+ code ran for 4.04m
+Model saved in file: TGT_DIR/
+PROJECTING
+TRANSFER LERARNING
+view1 to view2
+0.7621
+view2 to view1
+0.7497
+CORRELATION
+validation correlation
+38.2583205278
+test correlation
+38.6287627303
+ITERATION:  4
+TRAINING
+1111
+ code ran for 4.07m
+Model saved in file: TGT_DIR/
+PROJECTING
+TRANSFER LERARNING
+view1 to view2
+0.7388
+view2 to view1
+0.7464
+CORRELATION
+validation correlation
+37.9789434818
+test correlation
+38.5639917298
+ITERATION:  5
+TRAINING
+1111
+ code ran for 4.06m
+Model saved in file: TGT_DIR/
+PROJECTING
+TRANSFER LERARNING
+view1 to view2
+0.7493
+view2 to view1
+0.741
+CORRELATION
+validation correlation
+38.3622120351
+test correlation
+38.7228947179
+ITERATION:  6
+TRAINING
+1111
+ code ran for 4.04m
+Model saved in file: TGT_DIR/
+PROJECTING
+TRANSFER LERARNING
+view1 to view2
+0.7349
+view2 to view1
+0.7495
+CORRELATION
+validation correlation
+38.2720868508
+test correlation
+38.6016172478
+ITERATION:  7
+TRAINING
+1111
+ code ran for 4.15m
+Model saved in file: TGT_DIR/
+PROJECTING
+TRANSFER LERARNING
+view1 to view2
+0.7508
+view2 to view1
+0.7741
+CORRELATION
+validation correlation
+38.2325936045
+test correlation
+38.6226677144
+ITERATION:  8
+TRAINING
+1111
+ code ran for 4.04m
+Model saved in file: TGT_DIR/
+PROJECTING
+TRANSFER LERARNING
+view1 to view2
+0.7438
+view2 to view1
+0.7505
+CORRELATION
+validation correlation
+37.8707150745
+test correlation
+38.3050363852
+ITERATION:  9
+TRAINING
+1111
+ code ran for 3.86m
+Model saved in file: TGT_DIR/
+PROJECTING
+TRANSFER LERARNING
+view1 to view2
+0.7351
+view2 to view1
+0.7617
+CORRELATION
+validation correlation
+38.1471596508
+test correlation
+38.6902428509
+ITERATION:  10
+TRAINING
+1111
+ code ran for 3.88m
+Model saved in file: TGT_DIR/
+PROJECTING
+TRANSFER LERARNING
+view1 to view2
+0.7518
+view2 to view1
+0.7558
+CORRELATION
+validation correlation
+37.9371007371
+test correlation
+38.2515711829
+ITERATION:  11
+TRAINING
+1111
+ code ran for 3.89m
+Model saved in file: TGT_DIR/
+PROJECTING
+TRANSFER LERARNING
+view1 to view2
+0.754
+view2 to view1
+0.751
+CORRELATION
+validation correlation
+38.1709825022
+test correlation
+38.5380995855
+ITERATION:  12
+TRAINING
+1111
+ code ran for 3.87m
+Model saved in file: TGT_DIR/
+PROJECTING
+TRANSFER LERARNING
+view1 to view2
+0.7459
+view2 to view1
+0.7526
+CORRELATION
+validation correlation
+38.3740108454
+test correlation
+38.7723754979
+ITERATION:  13
+TRAINING
+1111
+ code ran for 3.89m
+Model saved in file: TGT_DIR/
+PROJECTING
+TRANSFER LERARNING
+view1 to view2
+0.7679
+view2 to view1
+0.7617
+CORRELATION
+validation correlation
+37.8183533742
+test correlation
+38.2904009928
+ITERATION:  14
+TRAINING
+1111
+ code ran for 3.89m
+Model saved in file: TGT_DIR/
+PROJECTING
+TRANSFER LERARNING
+view1 to view2
+0.7454
+view2 to view1
+0.7413
+CORRELATION
+validation correlation
+38.0911097351
+test correlation
+38.454056005
+ITERATION:  15
+TRAINING
+1111
+ code ran for 3.88m
+Model saved in file: TGT_DIR/
+PROJECTING
+TRANSFER LERARNING
+view1 to view2
+0.7597
+view2 to view1
+0.7451
+CORRELATION
+validation correlation
+38.1465415242
+test correlation
+38.5036446039
+ITERATION:  16
+TRAINING
+1111
+ code ran for 3.88m
+Model saved in file: TGT_DIR/
+PROJECTING
+TRANSFER LERARNING
+view1 to view2
+0.746
+view2 to view1
+0.7689
+CORRELATION
+validation correlation
+38.4070458436
+test correlation
+38.8415194217
+ITERATION:  17
+TRAINING
+1111
+ code ran for 3.89m
+Model saved in file: TGT_DIR/
+PROJECTING
+TRANSFER LERARNING
+view1 to view2
+0.7514
+view2 to view1
+0.7575
+CORRELATION
+validation correlation
+38.410443461
+test correlation
+38.72084126
+ITERATION:  18
+TRAINING
+1111
+ code ran for 3.89m
+Model saved in file: TGT_DIR/
+PROJECTING
+TRANSFER LERARNING
+view1 to view2
+0.754
+view2 to view1
+0.7465
+CORRELATION
+validation correlation
+38.1988578988
+test correlation
+38.6269575219
+ITERATION:  19
+TRAINING
+1111
+ code ran for 3.88m
+Model saved in file: TGT_DIR/
+PROJECTING
+TRANSFER LERARNING
+view1 to view2
+0.7528
+view2 to view1
+0.755
+CORRELATION
+validation correlation
+38.4267198457
+test correlation
+38.8891538858
