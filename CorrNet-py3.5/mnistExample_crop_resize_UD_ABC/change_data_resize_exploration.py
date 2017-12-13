@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.ndimage import rotate
-import cv2
 
 def get_mat(fname):
 	file = open(fname,"r")
@@ -25,7 +24,7 @@ plt.imshow(test, cmap='gray')
 ##############WORKS
 
 #start
-img=full[4200]
+img=full[3]
 plt.imshow(img, cmap='gray')
 
 test=img>0
@@ -50,19 +49,11 @@ plt.imshow(img, cmap='gray')
 width_min
 width_max
 
-global_max=max((height_max,width_max))+1
-global_min=min((height_min,width_min))
-
-global_max
-global_min
-
-cut=max(min(27-height_max,width_min),0)
-cut2=max(min(27-width_max,height_min),0)
-cut
-cut2
+bounding_square_size=max(width_max-width_min,height_max-height_min)+1
+bounding_square_size
 
 plt.imshow(img, cmap='gray')
-img_cropped=img[cut2:global_max-cut,cut:global_max-cut2]
+img_cropped=img[height_min:height_min+bounding_square_size, width_min:width_min+bounding_square_size]
 plt.imshow(img_cropped, cmap='gray')
 img_cropped_resized=scipy.misc.imresize(img_cropped,[28,28])
 plt.imshow(img_cropped_resized, cmap='gray')
@@ -78,7 +69,7 @@ im.resize([500,500])
 # for loop to iterate through full data set
 full_transformed=np.ndarray([10000,28,28])
 
-for i in range(0, 10):
+for i in range(0, 10000):
     img=full[i]
     test=img>0
     width=test.max(axis=0)
@@ -93,18 +84,14 @@ for i in range(0, 10):
     width_max=width[0].max()
 #idicators if there is information in horizontal and vertical lines
 
-    global_max=max((height_max,width_max))+1
-    global_min=min((height_min,width_min))
-
-    cut=max(min(27-height_max,width_min),0)
-    cut2=max(min(27-width_max,height_min),0)
+    bounding_square_size=max(width_max-width_min,height_max-height_min)+1
     
     img=scipy.misc.imresize(img,[28,28])
-    img_cropped=img[cut2:global_max-cut,cut:global_max-cut2]
+    img_cropped=img[height_min:height_min+bounding_square_size, width_min:width_min+bounding_square_size]
     img_cropped_resized=scipy.misc.imresize(img_cropped,[28,28])
     full_transformed[i]=img_cropped_resized
     #monitoring progress
-    if i%1==0:
+    if i%100==0:
         print(i)
     #checking results
     if i<=10:
@@ -116,5 +103,6 @@ for i in range(0, 10):
         im_transformed.save(name_transformed)
         
 
-plt.imshow(full[4200], cmap='gray')
-plt.imshow(full_transformed[6], cmap='gray')
+i=3000
+plt.imshow(full[i], cmap='gray')
+plt.imshow(full_transformed[i], cmap='gray')
