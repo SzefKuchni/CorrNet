@@ -1,0 +1,17 @@
+This is a corrnet compatible for two, three or four input views. 
+To run the experiment,
+
+Firstly, preprocessing input dataset to create different view nums. Download the mnist dataset into a folder, e.g. "input/M_ABCD". Then run the following command:
+    python change_data4.py input/M_ABCD 4  # for 4 views
+    or   python change_data4.py input/M_ABCD 3  # for 3 views
+Notes: before running this command line, users can run other preprocessing script, like crop, or change direction to up/down
+
+Secondly, create the datasets (from txt to npy)
+    python create_data4.py input/M_ABCD/ 4
+    or   python create_data4.py input/M_ABCD/ 3 
+    
+Thirdly,train the net. The size number needs to be set within the script (train_corrnet4.py), and lamda can be adjust within the script.
+    python train_corrnet4.py input/M_ABCD/  output/T_ABCD/
+    
+Fourth, reconstruct the other views, given one view. The SHAPE needs to be set within the script(reconstruct_corrnet4.py) [14,14], or [28,9]
+    python reconstruct_corrnet4.py input/M_ABCD/ output/T_ABCD/
