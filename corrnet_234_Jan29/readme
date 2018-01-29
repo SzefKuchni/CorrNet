@@ -10,7 +10,8 @@ Secondly, create the datasets (from txt to npy)
     python create_data4.py input/M_ABCD/ 4
     or   python create_data4.py input/M_ABCD/ 3 
     
-Thirdly,train the net. The size number needs to be set within the script (train_corrnet4.py), and lamda can be adjust within the script.
+Thirdly,train the net. The size number needs to be set within the script (train_corrnet4.py), and lamda can be adjust within the script. 
+A target folder needs to be create in advance, e.g. output/T_ABCD
     python train_corrnet4.py input/M_ABCD/  output/T_ABCD/
     
 Fourth, reconstruct the other views, given one view. The SHAPE needs to be set within the script(reconstruct_corrnet4.py) [14,14], or [28,9]
